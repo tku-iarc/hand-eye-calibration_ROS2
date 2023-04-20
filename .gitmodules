@@ -5,11 +5,3 @@
 	path = vision_visp
 	url = https://github.com/tku-iarc/vision_visp.git
 	branch = ros2
-[submodule "flexbe_behavior_engine"]
-	path = flexbe_behavior_engine
-	url = https://github.com/FlexBE/flexbe_behavior_engine.git
-	branch = humble-devel
-[submodule "flexbe_app"]
-	path = flexbe_app
-	url = https://github.com/FlexBE/flexbe_app.git
-	branch = humble-devel
