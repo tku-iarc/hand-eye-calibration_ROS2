@@ -27,6 +27,7 @@ class ComputeCalibState(EventState):
         self.eye_in_hand_mode = eye_in_hand_mode
         self.camera_object_list = TransformArray()
         self.world_effector_list = TransformArray()
+        #ProxyServiceCaller._initialize(ComputeCalibState._node)
         ProxyServiceCaller._initialize(ComputeCalibState._node)
         self.calib_compute_client = ProxyServiceCaller({'/compute_effector_camera_quick':ComputeEffectorCameraQuick})
         self.save_pwd = get_package_share_directory('charuco_detector') + '/config/hand_eye_calibration/'
