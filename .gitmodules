@@ -3,8 +3,8 @@
 	url = https://github.com/errrr0501/charuco_detector_ROS2.git
 [submodule "vision_visp"]
 	path = vision_visp
-	url = https://github.com/tku-iarc/vision_visp.git
-	branch = ros2
+	url = https://github.com/lagadic/vision_visp.git
+	branch = humble
 [submodule "flexbe_behavior_engine"]
 	path = flexbe_behavior_engine
 	url = https://github.com/FlexBE/flexbe_behavior_engine.git
