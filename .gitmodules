@@ -1,10 +1,6 @@
 [submodule "charuco_detector_ROS2"]
 	path = charuco_detector_ROS2
 	url = https://github.com/errrr0501/charuco_detector_ROS2.git
-[submodule "vision_visp"]
-	path = vision_visp
-	url = https://github.com/lagadic/vision_visp.git
-	branch = humble
 [submodule "flexbe_behavior_engine"]
 	path = flexbe_behavior_engine
 	url = https://github.com/FlexBE/flexbe_behavior_engine.git
@@ -13,3 +9,7 @@
 	path = flexbe_app
 	url = https://github.com/FlexBE/flexbe_app.git
 	branch = humble-devel
+[submodule "vision_visp"]
+	path = vision_visp
+	url = https://github.com/lagadic/vision_visp.git
+	branch = humble
